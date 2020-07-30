@@ -1,0 +1,106 @@
+<resources>
+
+    <string name="app_name">MobileApp</string>
+    <string name="title_activity_test1">test1</string>
+    <string name="title_anasayfa">Anasayfa</string>
+    <string name="title_bagislar">Bağışlar</string>
+    <string name="title_profil">Profil</string>
+    <string name="title_kurumlar">Kurumlar</string>
+
+    <string name="buttonUygulamaGirisKayitol">KAYIT OL</string>
+    <string name="buttonUygulamaGirisGiris">GİRİŞ</string>
+    <string name="textviewGirisEmail">E MAIL :</string>
+    <string name="texttiewGirisSifre">ŞİFRE :</string>
+    <string name="buttonGirisGiris">GİRİŞ</string>
+    <string name="buttonGirisSifremiunuttum">Şifremi Unuttum</string>
+    <string name="textviewSifremiUnuttumGuvenliksorusu">GÜVENLİK SORUSU :</string>
+    <string name="texttiewSifremiUnuttumGuvenlikcevabi">GUVENLİK SORUSU CEVABI :</string>
+    <string name="buttonSifremiUnuttumGonder">GÖNDER</string>
+    <string name="textviewBireyselKaydolAd">AD :</string>
+    <string name="textviewBireyselKaydolSoyad">SOYAD :</string>
+    <string name="textviewBireyselKaydolEmail">E-MAİL* :</string>
+    <string name="textviewBireyselKaydolAdres">ADRES :</string>
+    <string name="textviewBireyselKaydolTelefon">TELEFON :</string>
+    <string name="textviewBireyselKaydolKullaniciadi">KULLANICI ADI :</string>
+    <string name="textviewBireyselKaydolSifre">ŞİFRE* :</string>
+    <string name="textviewBireyselKaydolSifreDogrula">ŞİFRE DOĞRULA* :</string>
+    <string name="textviewBireyselKaydolGuvenliksorusu">GÜVENLİK SORUSU :</string>
+    <string name="textviewBireyselKaydolGuvenlikcevabi">GÜVENLİK SORUSU CEVABI :</string>
+    <string name="textviewBireyselKaydolSosyalmedya">SOSYAL MEDYA :</string>
+    <string name="buttonBireyselKaydolKayitol">KAYIT OL</string>
+    <string name="buttonKayitOlBireyselkayitol">BİREYSEL KAYIT OL</string>
+    <string name="buttonKayitOlKurumsalkayitol">KURUMSAL KAYIT OL</string>
+    <string name="textviewKurumsalKaydolKurumadi">KURUM ADI :</string>
+    <string name="textviewKurumsalKaydolFotograf">FOTOĞRAF :</string>
+    <string name="textviewKurumsalKaydolKurumno">KURUM NO :</string>
+    <string name="textviewKurumsalKaydolEmail">E-MAİL* :</string>
+    <string name="textviewKurumsalKaydolAdres">ADRES :</string>
+    <string name="textviewKurumsalKaydolTelefon">TELEFON :</string>
+    <string name="textviewKurumsalKaydolSifre">ŞİFRE* :</string>
+    <string name="textviewKurumsalKaydolSifreDogrula">ŞİFRE DOĞRULA*:</string>
+    <string name="textviewKurumsalKaydolSosyalmedya">SOSYAL MEDYA :</string>
+    <string name="buttonKurumsalKaydolKayitol">KAYIT OL</string>
+    <string-array name="spinnerGiris">
+        <item>Bireysel</item>
+        <item>Kurumsal</item>
+    </string-array>
+    <string-array name="spinnerSifremiUnuttum">
+        <item>Bireysel</item>
+        <item>Kurumsal</item>
+    </string-array>
+    <string name="imageviewKurumlarDetay">imageviewKurumlarDetay</string>
+    <string name="textviewKurumDetayKurumAdres">KURUM ADRESİ :</string>
+    <string name="textviewKurumDetaySosyalmedya">KURUM SOSYAL MEDYA :</string>
+    <string name="textviewKurumDetayTelefon">KURUM TELEFONU :</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hakkinda">Hakkında</string>
+    <string name="buttonBireyselKaydolFotograf">FOTOĞRAF YÜKLE</string>
+    <string name="buttonKurumsalKaydolFotograf">FOTOĞRAF EKLE</string>
+    <string name="buttondeneme">Button</string>
+    <string name="buttonBagisOlusturFotograf">FOTOĞRAF EKLE</string>
+    <string name="textviewBagisOlusturBaslik">BAĞIŞ :</string>
+    <string name="textviewBagisOlusturFotograf">FOTOĞRAF :</string>
+    <string name="textviewBagisOlusturBilgi">BİLGİ :</string>
+    <string name="textviewBagisOlusturSmsAdres">SMS ADRESİ :</string>
+    <string name="textviewBagisOlusturSmsMetin">SMS METNİ :</string>
+    <string name="textviewBagisOlusturOzet">ÖZET :</string>
+    <string name="buttonBagisOlusturEkle">EKLE</string>
+    <string name="buttonProfilBagisTaleplebiOlustur">BAĞIŞ TALEBİ OLUŞTUR</string>
+    <string name="buttonProfilBagisTaleplerim">BAĞIŞ TALEPLERİM</string>
+    <string name="textviewSifremiUnuttumEmail">Email :</string>
+    <string name="textViewSifremiUnuttum">Şifremi Unuttum</string>
+    <string name="textViewProfiliDuzenleAd">AD:</string>
+    <string name="textViewProfiliDuzenleSoyad">SOYAD:</string>
+    <string name="textViewProfiliDuzenleAdres">ADRES:</string>
+    <string name="textViewProfiliDuzenleTelefon">TELEFON:</string>
+    <string name="textViewProfiliDuzenleKullanıcıAdı">KULLANICI ADI:</string>
+    <string name="textViewProfiliDuzenleSosyalmedya">SOSYAL MEDYA:</string>
+    <string name="textViewProfiliDuzenleEmail">EMAİL:</string>
+    <string name="textViewProfiliDuzenleSifre">ŞİFRE:</string>
+    <string name="textViewProfiliDuzenleSifreDogrula">ŞİFRE DOĞRULA:</string>
+    <string name="buttonProfilCikisYap">ÇIKIŞ YAP</string>
+    <string name="buttonProfiliDuzenleFotograf">FOTOĞRAF SEÇ</string>
+    <string name="textViewProfiliDuzenleKurumsalKurumAd">KURUM ADI:</string>
+    <string name="editTextProfiliDuzenleKurumsalKurumNo">KURUM NO:</string>
+    <string name="textViewProfiliDuzenleKurumsalAdres">ADRES:</string>
+    <string name="textViewProfiliDuzenleKurumsalSosyalmedya">SOSYAL MEDYA:</string>
+    <string name="textViewProfiliDuzenleKurumsalTelefon">TELEFON:</string>
+    <string name="textViewProfiliDuzenleKurumsalEmail">EMAİL:</string>
+    <string name="textViewProfiliDuzenleKurumsalSifre">ŞİFRE:</string>
+    <string name="textViewProfiliDuzenleKurumsalSifreDogrula">ŞİFRE DOĞRULA:</string>
+    <string name="buttonProfiliDuzenleKurumsalKurumGuncelle">GÜNCELLE</string>
+    <string name="buttonProfiliDuzenleKurumsalKurumFotograf">FOTOĞRAF SEÇ</string>
+    <string name="buttonBagisimIcerikBagisSil">BAĞIŞI SİL</string>
+
+    <string name="textViewBagisGuncelleBaslik">BAŞLIK:</string>
+    <string name="textViewBagisGuncelleFotograf">FOTOĞRAF:</string>
+    <string name="buttonBagisGuncelleFotograf">FOTOĞRAF SEÇ</string>
+    <string name="textViewBagisGuncelleBilgi">BİLGİ:</string>
+    <string name="textViewBagisGuncelleSmsAdresi">SMS ADRESİ:</string>
+    <string name="textViewBagisGuncelleSmsMetni">SMS METNİ:</string>
+    <string name="textViewBagisGuncelleOzet">ÖZET:</string>
+    <string name="buttonBagisimIcerikBagisGuncelle">Bağışı Düzenle</string>
+    <string name="textviewBireyselKaydolFotograf">FOTOĞRAF :</string>
+
+</resources>

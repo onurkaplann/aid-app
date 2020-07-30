@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".BagisOlusturFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textviewBagisOlusturBaslik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textviewBagisOlusturBaslik"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextBagisOlusturBaslik"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textviewBagisOlusturFotograf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textviewBagisOlusturFotograf"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageviewBagisOlusturFotograf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:src="@tools:sample/avatars[2]" />
+
+                <Button
+                    android:id="@+id/buttonBagisOlusturFotograf"
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buttonBagisOlusturFotograf" />
+
+                <TextView
+                    android:id="@+id/textviewBagisOlusturBilgi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textviewBagisOlusturBilgi"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextBagisOlusturBilgi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintStart_toStartOf="@+id/editTextBagisOlusturBaslik"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textviewBagisOlusturSmsAdres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textviewBagisOlusturSmsAdres"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextBagisOlusturSmsAdres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    app:layout_constraintStart_toStartOf="@+id/editTextBagisOlusturBilgi"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextBagisOlusturBilgi" />
+
+                <TextView
+                    android:id="@+id/textviewBagisOlusturSmsMetin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textviewBagisOlusturSmsMetin"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextBagisOlusturSmsMetin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintStart_toStartOf="@+id/editTextBagisOlusturBilgi"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextBagisOlusturBilgi" />
+
+                <TextView
+                    android:id="@+id/textviewBagisOlusturOzet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textviewBagisOlusturOzet"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextBagisOlusturOzet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintStart_toStartOf="@+id/editTextBagisOlusturKurum"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextBagisOlusturKurum" />
+
+                <Button
+                    android:id="@+id/buttonBagisOlusturEkle"
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buttonBagisOlusturEkle"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="293dp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textViewBagisOlusturTampon"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#FF012E16"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BagisGuncelleFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewBagisGuncelleBaslik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewBagisGuncelleBaslik"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"/>
+
+                <EditText
+                    android:id="@+id/editTextBagisGuncelleBaslik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="BAŞLIK:" />
+
+                <TextView
+                    android:id="@+id/textViewBagisGuncelleFotograf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewBagisGuncelleFotograf"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageViewBagisGuncelle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:src="@tools:sample/avatars[2]" />
+
+                <Button
+                    android:id="@+id/buttonBagisGuncelleFotograf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buttonBagisGuncelleFotograf" />
+
+                <TextView
+                    android:id="@+id/textViewBagisGuncelleBilgi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewBagisGuncelleBilgi"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextBagisGuncelleBilgi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="BİLGİ:" />
+
+                <TextView
+                    android:id="@+id/textViewBagisGuncelleSmsAdresi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewBagisGuncelleSmsAdresi" />
+
+                <EditText
+                    android:id="@+id/editTextBagisGuncelleSmsAdresi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="SMS ADRESİ:" />
+
+                <TextView
+                    android:id="@+id/textViewBagisGuncelleSmsMetni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewBagisGuncelleSmsMetni"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextBagisGuncelleSmsMetni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="SMS METNİ:" />
+
+                <TextView
+                    android:id="@+id/textViewBagisGuncelleOzet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewBagisGuncelleOzet"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextBagisGuncelleOzet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="ÖZET:" />
+
+                <Button
+                    android:id="@+id/buttonBagisGuncelle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GÜNCELLE" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textViewBagisOlusturTampon"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

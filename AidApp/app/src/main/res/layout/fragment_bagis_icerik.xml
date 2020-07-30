@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BagisIcerikFragment">
+
+    <ScrollView
+        android:id="@+id/scrollviewBagislarIcerikScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewBagisIcerikBaslik"
+                        android:layout_width="316dp"
+                        android:layout_height="100dp"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textColor="#FF012E16"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewBagisIcerikSms"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="   SMS"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:textColor="#FF012E16"
+                            />
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/floatingActionButtonSms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:src="@android:drawable/ic_menu_send" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageViewBagisIcerikResim"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:src="@tools:sample/backgrounds/scenic[8]" />
+
+                <TextView
+                    android:id="@+id/textViewBagisIcerikBilgi"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewBagisIcerikKurum"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bağış Miktarı Giriniz:" />
+
+                <EditText
+                    android:id="@+id/editTextBagisIcerikMiktar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/buttonBagisIcerikBagisYap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BAĞIŞ YAP" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewBagisIcerikTampon"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#FF012E16"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

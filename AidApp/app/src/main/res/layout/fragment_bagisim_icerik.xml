@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BagisimIcerikFragment">
+
+    <ScrollView
+        android:id="@+id/scrollviewBagisimIcerikScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewBagisimIcerikBaslik"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageViewBagisimIcerikResim"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:src="@tools:sample/backgrounds/scenic[8]" />
+
+                <TextView
+                    android:id="@+id/textViewBagisimIcerikBilgi"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewBagisimIcerikKurum"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewBagisimIcerikBagisTutariBerlirtec"
+                        android:layout_width="165dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Toplam Bağış Tutarı: "
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:textColor="#FF012E16"
+                        />
+
+                    <TextView
+                        android:id="@+id/textViewBagisimIcerikBagisTutari"
+                        android:layout_width="245dp"
+                        android:layout_height="match_parent"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:textColor="#FF012E16"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonBagisimIcerikBagiscilariGoster"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BAGİSCİLARİ GOSTER"/>
+
+                <Button
+                    android:id="@+id/buttonBagisimIcerikBagisSil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buttonBagisimIcerikBagisSil"/>
+
+                <Button
+                    android:id="@+id/buttonBagisimIcerikBagisGuncelle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buttonBagisimIcerikBagisGuncelle" />
+
+                />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewBagisimIcerikTampon"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#FF012E16"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IstatistikFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textviewIstatistikAdsoyad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="133dp"
+            android:layout_marginTop="132dp"
+            android:text="AD SOYAD"
+            app:layout_constraintBottom_toBottomOf="@+id/textviewIstatistikBilgikutusu2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#FF012E16"
+            />
+
+        <TextView
+            android:id="@+id/textviewIstatistikBagisSayisi"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="102dp"
+            android:layout_marginStart="101dp"
+            android:text="*DEĞER*"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textviewIstatistikAdsoyad"
+            app:layout_constraintTop_toTopOf="@+id/textviewIstatistikBilgikutusu2"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#FF012E16"
+            />
+
+        <TextView
+            android:id="@+id/textviewIstatistikBilgikutusu"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="15dp"
+            android:text="İSTATİSTİKLER"
+            app:layout_constraintEnd_toEndOf="@+id/textviewIstatistikAdsoyad"
+            app:layout_constraintTop_toBottomOf="@+id/textviewIstatistikAdsoyad"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#FF012E16"
+            />
+
+        <TextView
+            android:id="@+id/textviewIstatistikBilgikutusu2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="53dp"
+            android:text="Toplam Bağış Sayısı:"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#FF012E16"
+            />
+
+        <TextView
+            android:id="@+id/textviewIstatistikBilgikutusu3"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Toplam Tutar:"
+            app:layout_constraintEnd_toEndOf="@+id/textviewIstatistikBilgikutusu2"
+            app:layout_constraintTop_toBottomOf="@+id/textviewIstatistikBilgikutusu2"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#FF012E16"
+            />
+
+        <TextView
+            android:id="@+id/textviewIstatistikToplamTutar"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="*DEĞER*"
+            app:layout_constraintStart_toStartOf="@+id/textviewIstatistikBagisSayisi"
+            app:layout_constraintTop_toBottomOf="@+id/textviewIstatistikBagisSayisi"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#FF012E16"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>

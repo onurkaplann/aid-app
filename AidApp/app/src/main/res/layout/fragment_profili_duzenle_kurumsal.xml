@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfiliDuzenleKurumsalFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewProfiliDuzenleKurumsalKurumAd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewProfiliDuzenleKurumsalKurumAd"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextProfiliDuzenleKurumsalKurumAd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="KURUM ADI" />
+
+                <TextView
+                    android:id="@+id/textViewProfiliDuzenleKurumsalKurumNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/editTextProfiliDuzenleKurumsalKurumNo"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextProfiliDuzenleKurumsalKurumNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/editTextProfiliDuzenleKurumsalKurumNo" />
+
+                <TextView
+                    android:id="@+id/textViewProfiliDuzenleKurumsalAdres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewProfiliDuzenleKurumsalAdres"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextProfiliDuzenleKurumsalAdres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="ADRES" />
+
+                <TextView
+                    android:id="@+id/textViewProfiliDuzenleKurumsalSosyalmedya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewProfiliDuzenleKurumsalSosyalmedya"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextProfiliDuzenleKurumsalSosyalmedya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/textviewKurumsalKaydolSosyalmedya" />
+
+                <TextView
+                    android:id="@+id/textViewProfiliDuzenleKurumsalTelefon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewProfiliDuzenleKurumsalTelefon"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextProfiliDuzenleKurumsalTelefon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="phone" />
+
+                <TextView
+                    android:id="@+id/textViewProfiliDuzenleKurumsalEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewProfiliDuzenleKurumsalEmail"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextProfiliDuzenleKurumsalEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/textViewProfiliDuzenleKurumsalSifre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewProfiliDuzenleKurumsalSifre"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextProfiliDuzenleKurumsalSifre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPassword" />
+                <TextView
+                    android:id="@+id/textViewProfiliDuzenleKurumsalSifreDogrula"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewProfiliDuzenleKurumsalSifreDogrula"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#FF012E16"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextProfiliDuzenleKurumsalSifreDogrula"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPassword" />
+
+                <Button
+                    android:id="@+id/buttonProfiliDuzenleKurumsalKurumFotograf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buttonProfiliDuzenleKurumsalKurumFotograf" />
+
+                <ImageView
+                    android:id="@+id/imageViewProfiliDuzenleKurumsal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:src="@tools:sample/avatars[2]" />
+
+                <Button
+                    android:id="@+id/buttonProfiliDuzenleKurumsalKurumGuncelle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buttonProfiliDuzenleKurumsalKurumGuncelle" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textViewBagisOlusturTampon"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
